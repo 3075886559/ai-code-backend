@@ -58,6 +58,28 @@
 			<artifactId>knife4j-openapi3-boot4-spring-boot-starter</artifactId>
 			<version>5.8.2</version>
 		</dependency>
+		<!-- jdbc -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<!-- pgsql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- mybatisflex -->
+		<dependency>
+			<groupId>com.mybatis-flex</groupId>
+			<artifactId>mybatis-flex-spring-boot4-starter</artifactId>
+			<version>1.11.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.mybatis-flex</groupId>
+			<artifactId>mybatis-flex-codegen</artifactId>
+			<version>1.11.8</version>
+		</dependency>
 	</dependencies>
 
 	<build>
