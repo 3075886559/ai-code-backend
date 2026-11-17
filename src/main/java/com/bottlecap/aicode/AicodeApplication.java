@@ -1,9 +1,11 @@
 package com.bottlecap.aicode;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan("com.bottlecap.aicode.user.mapper")
 public class AicodeApplication {
 
 	public static void main(String[] args) {

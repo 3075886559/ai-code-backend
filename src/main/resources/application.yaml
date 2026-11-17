@@ -16,7 +16,9 @@ springdoc:
   group-configs:
     - group: default
       paths-to-match: /**
-      packages-to-scan: com.bottlecap.aicode.controller
+      packages-to-scan: 
+        - com.bottlecap.aicode.controller
+        - com.bottlecap.aicode.user.controller
 
 knife4j:
   enable: true
